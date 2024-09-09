@@ -1,0 +1,28 @@
+/* body {
+background-color: rgb(53, 99, 67);
+color: aqua;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+p {
+    background-color: blue;
+    color: crimson;
+}
+.highlight {
+background-color: blueviolet;
+color: tomato;
+}
+#unique {
+    font-weight: bold;
+    color: blueviolet;
+}
+/* decendant combinator */
+div p{
+    color: black;
+}
+/* adjacent sibling combinator */
+h1+p {
+    margin: 0;
+    color: blue;
+}
+h1~p {
+    font-style: italic;
+}
