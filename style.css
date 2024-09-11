@@ -1,7 +1,8 @@
 /* body {
 background-color: rgb(53, 99, 67);
 color: aqua;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
 p {
     background-color: blue;
     color: crimson;
@@ -25,4 +26,77 @@ h1+p {
 }
 h1~p {
     font-style: italic;
+}
+.box {
+    margin: 100px;
+    padding: 2px;
+    border: 3px dotted green;
+    height: 100px;
+    margin: 2px;
+}
+.static {
+    position: static;
+}
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: aqua;
+}
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: green;
+}
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: blue;
+}
+.sticky {
+    position: sticky;
+    top: 5px;
+    background-color: blue;
+}
+.block {
+    display: block;
+    background-color: aquamarine;
+    margin: 10px;
+    height: 20px;
+}
+.inline {
+    display: inline;
+    background-color: brown;
+    margin: 10px;
+}
+.inline-block{
+    display: inline-block;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.none {
+    display: none;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+.float-left {
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
+.float-right {
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
